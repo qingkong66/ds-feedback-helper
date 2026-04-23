@@ -35,3 +35,59 @@ This project uses DeepSeek's own capabilities to make itself better — automati
 git clone https://github.com/qingkong66/ds-feedback-helper.git
 cd ds-feedback-helper
 pip install -r requirements.txt
+```
+### 配置 | Configuration
+
+复制 `.env.example` 为 `.env`，填入配置：
+
+```bash
+cp .env.example .env
+```
+编辑 .env 文件：
+DEEPSEEK_API_KEY=your_api_key_here
+GITHUB_TOKEN=your_github_token_optional 
+
+## 运行 | Run
+python main.py --repo deepseek-ai/DeepSeek-V3 --days 7
+## 📊 输出示例 | Example Output
+
+
+# DS 社区反馈周报 | Community Feedback Weekly
+
+## 统计概览 | Summary
+- 总反馈数 | Total: 15
+- 已处理 | Processed: 12
+
+## 按类别分布 | By Category
+- 🐛 Bug: 8
+- 💡 Feature: 5
+- ⚡ UX: 2
+
+## 🤝 如何贡献 | How to Contribute
+
+欢迎任何形式的贡献！
+
+1. Fork 本仓库
+2. 创建功能分支 (`git checkout -b feature/amazing-feature`)
+3. 提交修改 (`git commit -m 'Add some amazing feature'`)
+4. 推送到分支 (`git push origin feature/amazing-feature`)
+5. 打开 Pull Request
+
+### 特别征集
+
+- 熟悉 GitHub API 的开发者
+- 熟悉 DeepSeek API 的开发者
+- 愿意测试的志愿者
+
+## 📝 开源协议 | License
+
+MIT License
+
+## 📬 联系与讨论
+
+- 在 [Issues](https://github.com/qingkong66/ds-feedback-helper/issues) 中提问或建议
+- 原始讨论见 [DeepSeek-V3#1236](https://github.com/deepseek-ai/DeepSeek-V3/issues/1236)
+
+---
+
+**用 DeepSeek 帮助 DeepSeek 变得更好 ✨**
